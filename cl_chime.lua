@@ -7,7 +7,6 @@ local bones = door_dside_f, door_dside_r, door_pside_f, door_pside_r
 local setdooropen
 local setdoorclosed
 setdooropen = false
-setdooropen = false
 local ped = GetPlayerPed(-1)
 local veh = GetVehiclePedIsUsing(ped) or GetLastDrivenVehicle() or QBCore.Functions.GetPlayerData() or QBCore.Functions.GetVehicles()
 
